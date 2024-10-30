@@ -1,0 +1,102 @@
+/*
+css changed to be independent of theme styles (at least to large extend)
+and more understandable to work with.
+*/
+.cat-post-ajax-tree span {
+	padding: 0px 2px 2px 2px;
+	font-size: 11px;
+	line-height: 15px;
+	display: inline;
+	text-decoration: none;
+	color: black;
+    width: 13px;
+	float: right;
+	cursor: pointer;
+}
+
+.cat-post-ajax-tree span.arrow {
+	background: transparent url("img/expand_collapse_ico.gif") no-repeat
+		scroll 0 1px;
+}
+
+.cat-post-ajax-tree span.collapse {
+	background: transparent url("img/expand_collapse_ico.gif") no-repeat
+		scroll 0 -16px;
+	/*background-position: 0 -15px;*/
+}
+
+.cat-post-ajax-tree span.snake {
+	background: #FDF3C4 url("img/snake.gif") no-repeat scroll 0 0;
+}
+
+.nat-menu-li {
+	margin-bottom: 14px;
+	overflow: hidden;
+}
+
+.cat-post-ajax-tree a {
+	display: inline-block !important;
+  float: left !important;
+}
+
+.cat-post-ajax-tree h2.head {
+	padding: 0 !important;
+	width: auto !important;
+    border-top: 1px solid #FDF3C4 !important;
+	border-bottom: 1px solid #FFCF5D !important;
+}
+
+.cat-post-ajax-tree h2.head a {
+	color: black !important;
+	font-family: Arial, sans-serif !important;
+	font-size: 13px !important;
+	width: 180px !important;
+	line-height: 15px !important;
+	padding: 0 2px 2px 24px !important;
+    border: none !important;
+}
+
+.cat-post-ajax-tree li a {
+	border-bottom: 1px solid #FFCF5D !important;
+	border-top: 1px solid #ffffff !important;
+	font-size: 11px; line-height : 14px; margin-left : 0; padding : 2px;
+	color: #7593FF;
+	text-decoration: none !important;
+	line-height: 14px;
+	margin-left: 0;
+	padding: 2px; color : #7593FF; text-decoration : none !important;
+	width: 220px !important;
+}
+
+li.cat-post-ajax-tree li a:hover {
+	font-weight: normal !important;
+	border-top: 1px solid #FDF3C4 !important;
+}
+
+span.widgettitle {
+	background-color: #FDF3C4;
+	border-top: 1px solid white;
+	border-right: 1px solid white;
+	border-bottom: 1px solid #FFCF5D;
+	border-left: 1px solid white;
+	color: black;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	height: 19px;
+	margin: 0;
+	padding: 6px 0 0;
+	text-align: center;
+	width: auto;
+	display: inline-block;
+	width: 100%;
+}
+
+.cat-post-ajax-tree-submenu
+{
+	margin-bottom:1px;
+}
+
+.hidden
+{
+	display: none;
+}

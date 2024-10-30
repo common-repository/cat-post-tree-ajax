@@ -1,0 +1,120 @@
+/*
+Original styles were heavily dependend on theme.
+I have made an attempt to make them as independent as 
+possible.
+*/
+.cat-post-ajax-tree  span.widgettitle {
+	border-bottom: solid 1px #ffcf5d;
+	background-color: #FDF3C4;
+	color: black;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: none;
+	height: 19px;
+	margin: 0px;
+	display: inline-block;
+	width: 100%;
+}
+
+.cat-post-ajax-tree .nat-menu-li h2.head {
+	background-color: #FFFFFF !important;
+	border-top: 0 none !important;
+	color: black;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	text-transform: none;
+	height: 19px;
+	margin: 1px !important;
+	padding: 0 !important;
+	text-align: center;
+	clear: none !important;
+	height: 19px;
+}
+
+.cat-post-ajax-tree .head a {
+	border-top: 1px solid white !important;
+	background: white;
+	width: 202px; /*change this to fit your needs*/
+}
+
+.nat-menu-li li a {
+	width: 200px; /*change this to fit your needs*/
+}
+
+.cat-post-ajax-tree .head a.hover {
+	border-top: 1px solid #FDF3C4 !important;
+	background: #fdf3c4;
+}
+
+.cat-post-ajax-tree .head span.arrow {
+    background-color: transparent;
+    background-position: -4px 0;
+    background-repeat: no-repeat;
+	border-top: 1px solid white;
+	border-bottom: 1px solid #FFCF5D;
+	display: block;
+	float: right;
+	width: 11px;
+	cursor: pointer;
+	color: black;
+	font-size: 11px;
+	line-height: 14px;
+	padding: 2px;
+	text-decoration: none;
+}
+
+.cat-post-ajax-tree .head span.img-up {
+	background-image: url('img/arrowUp.png');
+}
+
+.cat-post-ajax-tree .head span.img-down {
+	background-image: url('img/arrowDown.png');
+}
+
+.cat-post-ajax-tree .head span.hover {
+	border-top: 1px solid #FDF3C4;
+	background-color: #FDF3C4;
+}
+
+.cat-post-ajax-tree .head span.snake {
+	background: transparent url("img/snake.gif") no-repeat scroll 0 0;
+}
+
+.cat-post-ajax-tree-submenu {
+	margin-bottom: 1px;
+}
+
+.cat-post-ajax-tree a {
+	font-family: verdana, helvetica, sans-serif;
+	text-decoration: none;
+	text-align: left;
+	border-top: 1px solid white;
+	border-bottom: 1px solid #ffcf5d;
+	float: left;
+}
+
+.cat-post-ajax-tree ul,.cat-post-ajax-tree li {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.cat-post-ajax-tree li a {
+	padding: 2px 2px 2px 2px;
+	margin-left: 20px;
+	font-size: 11px;
+	line-height: 14px;
+	display: block;
+	text-decoration: none;
+	color: #7593ff;
+	border-top: 1px solid white !important;
+	border-bottom: 1px solid #ffcf5d !important;
+	float: left;
+}
+
+.cat-post-ajax-tree li a:hover {
+	font-weight: normal !important;
+	border-top: 1px solid #FDF3C4 !important;
+}
